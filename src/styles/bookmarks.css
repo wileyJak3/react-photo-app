@@ -1,0 +1,12 @@
+#profileContent{
+    width: 98vw;
+    height: 13vh;
+    padding-top:1vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: white solid;
+    border-bottom: white solid;
+    background-color: #F8F9FA;
+}

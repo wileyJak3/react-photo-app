@@ -1,0 +1,26 @@
+#rowAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+      
+}
+
+.card-img-top{
+    height:90vh ;
+    object-fit: contain;
+    border: black solid 2px;
+    padding: 1vh;
+    width: 30vw;
+}
+
+.col{
+    padding:0;
+}
+/* .card-body{
+   object-fit:f;
+} */
+
+#cardText{
+height: 10vh;
+}
+

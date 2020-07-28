@@ -1,0 +1,65 @@
+#rowHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#rowHeader h1 {
+ 
+    font-size: 10vh;
+    padding: 2vh;
+}
+
+#profilePageImg {
+  border: black solid;
+object-fit: fill;
+height: 200px;
+width: 200px ;
+/* height: 35vh;
+width: 20vw ; */
+border-radius: 50%;
+margin-top:2vh;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color:cornflowerblue;
+    border: black;
+}
+
+
+.rowContent{
+    display: flex;
+    flex-direction: column;
+    align-items: initial ;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #F8F9FA;
+  
+}
+
+.rowContent h3{
+    font-size: 10vh;
+    margin-top: 6vh;
+}
+
+.rowContent img{
+    margin-bottom: 2vh;
+}
+
+
+.row-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: initial ;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 3vh;
+}
+.row-content-2 h4{
+margin-top: 6vh;
+    font-size: 4vh;
+}

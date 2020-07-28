@@ -1,0 +1,21 @@
+.card-img-top{
+    margin-top: 2vh;
+    object-fit: fill;
+    height: 60vh;
+    
+}
+
+.col{
+    /* margin-left: 1vh ; */
+    /* margin-right: 1vh  */
+}
+
+#photoGrid2Card{
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.card{
+    border: none;
+
+}

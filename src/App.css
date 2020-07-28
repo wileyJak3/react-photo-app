@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+#rowAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-right: 1vw;
+
+}
+.card button{
+    width: 18vw;
+    align-self: center;
+    margin-top: 4vh;
+    margin-right:3vw ;
+    margin-bottom: 2vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.row{
+   margin-right: 0;
+   margin-left: 0; 
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    font-family: 'Permanent Marker', cursive;
+    /* overflow-x: hidden; */
 }
